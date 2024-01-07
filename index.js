@@ -18,6 +18,8 @@ let contact=[
         "number":"23490904" 
     }
 ]
+// Exercise 1 Implement a Node application that returns a hardcoded list of phonebook entries from
+// the address 
 app.get(`/api/persons`,(request,response)=>
     {response.json(contact)})
 app.listen(PORT,()=>console.log(`Server running on ${PORT}`))
